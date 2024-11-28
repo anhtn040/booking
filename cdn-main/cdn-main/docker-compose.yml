@@ -1,0 +1,17 @@
+version: "3.3"
+
+services:
+  nginx:
+    container_name: cdn
+    image: nginx:1.17
+    restart: unless-stopped
+    networks:
+      - manager-portal_my-network
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - ./images:/media/images
+networks:
+  manager-portal_my-network:
+    external: true

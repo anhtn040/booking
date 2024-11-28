@@ -1,0 +1,9 @@
+
+services:
+  migratedb:
+    image: boxfuse/flyway:latest
+    volumes:
+      - ./sql:/flyway/sql
+      - ./conf:/flyway/conf
+      - ./driver:/flyway/drivers
+    command: migrate

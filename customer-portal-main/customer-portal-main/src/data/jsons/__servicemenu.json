@@ -1,0 +1,90 @@
+{
+  "hotel": [
+    {
+      "name": "Tất cả",
+      "href": "/residences"
+    },
+    {
+      "name": "khách sạn",
+      "href": "/residences?type=HOTEL"
+    },
+    {
+      "name": "Homestay",
+      "href": "/residences?_type=HOMESTAY"
+    },
+    {
+      "name": "Villa",
+      "href": "/residences?type=VILLA"
+    },
+    {
+      "name": "Nhà nguyên căn",
+      "href": "/residences?type=HOME"
+    }
+  ],
+  "Tour": [
+    {
+      "name": "Tất cả",
+      "href": "/tours"
+    },
+    {
+      "name": "2 ngày 1 đêm",
+      "href": "/tours?type=2n1d"
+    },
+    {
+      "name": "3 ngày 2 đêm",
+      "href": "/tours?type=3n2d"
+    },
+    {
+      "name": "4 ngày 3 đêm",
+      "href": "/tours?type=4n3d"
+    },
+    {
+      "name": "5 ngày 4 đêm",
+      "href": "/tours?type=5n4d"
+    }
+  ],
+  "Service": [
+    {
+      "name": "Tất cả",
+      "href": "/services"
+    },
+    {
+      "name": "Hướng dẫn viên",
+      "href": "/services?type=hdv"
+    },
+    {
+      "name": "Tour Hòn Tranh",
+      "href": "/services?type=hontranh"
+    },
+    {
+      "name": "Tour Bãi Cạn",
+      "href": "/services?type=baican"
+    },
+    {
+      "name": "Thuê xe máy",
+      "href": "/services?type=moto"
+    }
+  ],
+  "Ship": [
+    {
+      "name": "Tất cả",
+      "href": "/ships"
+    },
+    {
+      "name": "Phú Quý Express",
+      "href": "/ships?type=phuquyexpress"
+    },
+    {
+      "name": "Supper Dong",
+      "href": "/ships?type=supperdong"
+    },
+    {
+      "name": "Trưng Trắc",
+      "href": "/ships?type=trungtrac"
+    },
+    {
+      "name": "Chấn Kha",
+      "href": "/ships?type=chankha"
+    }
+  ]
+}

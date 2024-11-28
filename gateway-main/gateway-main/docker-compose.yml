@@ -1,0 +1,16 @@
+version: "3.3"
+
+services:
+  nginx:
+    container_name: gateway
+    networks:
+      - manager-portal_my-network
+    image: nginx:1.17
+    restart: unless-stopped
+    volumes:
+      - ./nginx:/etc/nginx
+    ports:
+      - "9999:80"
+networks:
+  manager-portal_my-network:
+    external: true

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.boot:spring-boot-autoconfigure-processor:3.0.8" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.springframework.boot" artifactId="spring-boot-autoconfigure-processor" version="3.0.8" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure-processor/3.0.8/15ac1922ea3e79123f6fdcee281187fab1c66ecd/spring-boot-autoconfigure-processor-3.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure-processor/3.0.8/d060a334417ad9c382f494511cff8d5240af6fae/spring-boot-autoconfigure-processor-3.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

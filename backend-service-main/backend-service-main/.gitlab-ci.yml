@@ -1,0 +1,6 @@
+build:
+  tags:
+    - macos
+  script:
+    - docker info
+    - docker run --rm hello-world
